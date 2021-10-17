@@ -1,9 +1,7 @@
 import PropTypes from "prop-types";
-import styles from "./Message.module.scss";
+import s from "./Message.module.scss";
 
-const Message = ({ children }) => (
-  <div className={styles.Message}>{children}</div>
-);
+const Message = ({ children }) => <div className={s.Message}>{children}</div>;
 
 Message.defaultProps = {
   children: [],

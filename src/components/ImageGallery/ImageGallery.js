@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 import ImageGalleryItem from "../ImageGalleryItem";
-import styles from "./ImageGallery.module.scss";
+import s from "./ImageGallery.module.scss";
 
 const ImageGallery = ({ images, onImageClick }) => (
-  <ul className={styles.ImageGallery}>
+  <ul className={s.ImageGallery}>
     {images.map((image) => {
       return (
         <ImageGalleryItem

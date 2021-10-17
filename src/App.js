@@ -28,7 +28,7 @@ const App = () => {
     // eslint-disable-next-line
   }, [searchQuery]);
 
-  // Принимаем с формы запрос и пишем в стейт + сбрасываем после отправки стейт
+  // Принимаеn с формы запрос и пишем в стейт и сбрасывает после отправки стейт
   const onChangeQuery = (query) => {
     setImages([]);
     setPage(1);
@@ -80,7 +80,7 @@ const App = () => {
     });
   };
 
-  const needToShowLoadMore = images.length > 0 && images.length >= 12; // Нужны доп проверки;
+  const needToShowLoadMore = images.length > 0 && images.length >= 12;
 
   return (
     <>

@@ -1,15 +1,15 @@
 import PropTypes from "prop-types";
-import styles from "./ImageGalleryItem.module.scss";
+import s from "./ImageGalleryItem.module.scss";
 
 const ImageGalleryItem = ({ image, onImageClick }) => {
   const fullImage = () => onImageClick(image.largeImageURL);
 
   return (
-    <li className={styles.ImageGalleryItem}>
+    <li className={s.ImageGalleryItem}>
       <img
         src={image.webformatURL}
         alt={image.tags}
-        className={styles["ImageGalleryItem-image"]}
+        className={s["ImageGalleryItem-image"]}
         onClick={fullImage}
       />
     </li>

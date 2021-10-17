@@ -1,10 +1,10 @@
 import PropTypes from "prop-types";
 import SearchFrom from "../SearchForm";
 
-import styles from "./Searchbar.module.scss";
+import s from "./Searchbar.module.scss";
 
 const Searchbar = ({ onSearch }) => (
-  <header className={styles.Searchbar}>
+  <header className={s.Searchbar}>
     <SearchFrom onSearch={onSearch} />
   </header>
 );
