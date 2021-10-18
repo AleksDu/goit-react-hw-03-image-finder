@@ -88,7 +88,7 @@ const App = () => {
 
       {images.length < 1 && (
         <Message>
-          <h2>The gallery is empty 🙁</h2>
+          <h2>The gallery is empty ⚛</h2>
           <p>Use search field!</p>
         </Message>
       )}
@@ -112,7 +112,7 @@ const App = () => {
 
       {error && (
         <Message>
-          <h2>Oops! 😫</h2>
+          <h2>Oops!😭</h2>
           <p>
             Sorry, something went wrong. Please try again, or{" "}
             <a href="/">refresh the page</a>.
