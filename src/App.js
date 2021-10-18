@@ -28,7 +28,7 @@ const App = () => {
     // eslint-disable-next-line
   }, [searchQuery]);
 
-  // Принимаеn с формы запрос и пишем в стейт и сбрасывает после отправки стейт
+  // Принимает с формы запрос и пишем в стейт и сбрасывает после отправки стейт
   const onChangeQuery = (query) => {
     setImages([]);
     setPage(1);
