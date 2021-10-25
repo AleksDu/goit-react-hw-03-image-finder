@@ -112,7 +112,7 @@ const App = () => {
 
       {error && (
         <Message>
-          <h2>Oops!😭</h2>
+          <h2>Oops!😭😭</h2>
           <p>
             Sorry, something went wrong. Please try again, or{" "}
             <a href="/">refresh the page</a>.
